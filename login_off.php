@@ -1,0 +1,1 @@
+<? include("./inc_l.php"); Commons::close_session(); ?>

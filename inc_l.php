@@ -1,0 +1,1 @@
+<?php include("./config.php"); include("./core/core.php"); include("./core/ws.php");

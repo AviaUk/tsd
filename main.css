@@ -1,0 +1,138 @@
+body, html
+{
+	font-family: Sans-serif, Verdana;
+	font-size: 9pt;
+    background-color:#F0F0F0;
+    margin: 0px;
+    padding: 0px;
+
+}
+.appframe
+{
+    width: 300px;
+    margin: 0 auto;
+	background-color:#F0F0F0;
+	/*border:1px solid #000;*/
+	padding:0px;
+    text-align: left;
+    font-size:9pt !important;
+}
+.formfield
+{
+	width:150px;
+	margin:5px;
+	background-color:#F0F0F0;
+	border:1px solid #8A8A8A;
+}
+.formlabel
+{
+	padding:5px;
+}
+.ordertableheader
+{
+	font-size:8pt;
+	border-right:1px solid #ACACA8;
+	border-bottom:1px solid #ACACA8;
+	padding:3px;
+}
+.title
+{
+	font-size:10pt;
+    background-color:#F0F0F0;
+    text-align: center;
+}
+.pd5
+{
+	padding:3px;
+}
+.block-dlg {
+    text-align: center;
+    border: 2px solid #8A8A8A;
+}
+.block-dlg .formfield-rubber {
+    width: 80%;
+}
+.block-errormsg {
+    font-size: 7pt;
+    color: red;
+}
+.block-rightalign {
+    text-align: right;
+}
+.orderworkbar {
+    background-color:#E7E7D6;
+    border:1px solid #D1D1CD;
+    width:100%;
+    margin:10px 0px 10px 0px;
+}
+
+.orderworkbar .actionblock {
+    font-size:8pt;
+    padding:3px;
+    background-color:#CCCCCC;
+}
+
+.orderlist {
+    background-color:#E7E7D6;
+    border:1px solid #90918C;
+    width:100%;
+    margin:10px 0px 10px 0px;
+}
+.ordertablecell a.as-text {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+/*a.as-text {
+    color:black;
+}
+*/
+.selectedorder * {
+    color:white !important;
+}
+
+.action {
+    width: 300px;
+    margin: 0 auto;
+    font-size:8pt;
+    padding:0px;
+    background-color:#CCCCCC;
+    text-align: left;
+
+    border: 3px solid #CCCCCC;
+}
+
+.addHeader{
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.addAm{
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+}
+.addAm2{
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: left;
+    color: darkblue;
+}
+
+.actionmain{
+    width:132px;
+    -moz-border-radius:  3px; /* Firefox */
+    -webkit-border-radius:  3px; /* Safari 4 */
+    border-radius:  3px; /* IE 9, Safari 5, Chrome */
+
+
+}
+.tab{
+
+    height: 150px;
+    width: 320px;
+    overflow-y: scroll;
+}
